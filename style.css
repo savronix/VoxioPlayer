@@ -1,0 +1,95 @@
+#body{
+  background-color:#191b1f;
+  text-align: center;
+  align-items: center;
+  color: aliceblue;
+  margin-top: 0%;
+}
+
+#baslik{
+  color: indianred !important;
+  font-family: 'Dangrek', cursive;
+  font-size:34px;
+  margin-top: 20px  !important;
+}
+
+#voxioHakkinda{
+  font-size:16px;
+  margin-left: 10px;
+  margin-right: 12px;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #191b1f !important;
+}
+
+#özellikBaslik{
+  color: rgb(70, 161, 197);
+  font-family: 'Righteous', cursive;
+}
+
+.carousel-container {
+  max-width: 700px;
+  margin: 0 auto; /* Ekranın ortasında yer almasını sağlar */
+  margin-bottom: 70px; /* Boşluğu azaltmak için gereken değer */
+  margin-bottom: 140px;
+}
+
+.carousel-container .carousel {
+  position: relative; /* Değişiklik */
+}
+
+.carousel-container .carousel-item {
+  width: 100%;
+  height: 0; /* Değişiklik */
+  padding-bottom: 56.25%; /* Adjust this value to change the aspect ratio (16:9 in this case) */
+  overflow: hidden; /* Değişiklik */
+}
+
+.carousel-container .carousel-item img {
+  position: absolute; /* Değişiklik */
+  top: 0; /* Değişiklik */
+  left: 0; /* Değişiklik */
+  width: 100%;
+  height: 100%; /* Değişiklik */
+  object-fit: cover;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  border: 1px solid #a7a7a7 !important;
+  border-radius: 30px!important;
+  padding: 20px;
+  width: 300px;
+  background-color: #191b1f !important;
+  color: #fff;
+  margin: 10px;
+}
+
+h2 {
+  margin: 0;
+  padding: 0;
+  color: aliceblue;
+  font-family: 'Dangrek', cursive;
+}
+
+p {
+  margin: 10px 0 0 0;
+  padding: 0;
+  color: aliceblue;
+  
+}
+
+#baslikCard1,
+#baslikCard2,
+#baslikCard3 {
+  color: rgb(70, 161, 197);
+}
