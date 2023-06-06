@@ -1,0 +1,304 @@
+adaptive Debug: playlist Start/End 0/0 len 60000000rap pl/demux (0/60000000)
+adaptive Debug: playlist Start/End 0/0 len 60000000rap pl/demux (0/60000000)
+adaptive Debug: cached.i_time (40840001) cur 0 rap start (pl -1444769443/dmx 2) pos 0.000000
+adaptive Debug: playlist Start/End 0/0 len 60000000rap pl/demux (0/60000000)
+adaptive Debug: cached.i_time (41867590) cur 0 rap start (pl -1443741854/dmx 2) pos 0.000000
+main Debug: killing decoder fourcc `h264'
+main Debug: saving a free vout
+main Debug: using packetizer module "h264"
+avcodec Debug: using ffmpeg Lavc58.134.100
+avcodec Debug: CPU flags: 0x000853db
+main Debug: reusing provided vout
+main Debug: looking for packetizer module matching "any": 25 candidates
+main Debug: removing module "samplerate"
+main Debug: removing module "scaletempo"
+directsound Debug: closing audio device
+main Debug: keeping audio output
+main Debug: removing module "float_mixer"
+main Debug: looking for packetizer module matching "any": 25 candidates
+mpeg4audio Debug: running MPEG4 audio packetizer
+mpeg4audio Debug: ADTS Mode
+main Debug: using packetizer module "mpeg4audio"
+main Debug: looking for audio decoder module matching "any": 23 candidates
+main Debug: using audio decoder module "faad"
+main Debug: restarting module due to input format change
+mpeg4audio Notice: AAC channels: 2 samplerate: 44100
+main Debug: reusing audio output
+directsound Debug: Opening DirectSound Audio Output
+main Debug: output 'f32l' 44100 Hz Stereo frame=1 samples/8 bytes
+main Debug: looking for audio volume module matching "any": 2 candidates
+main Debug: using audio volume module "float_mixer"
+main Debug: input 'f32l' 44100 Hz Stereo frame=1 samples/8 bytes
+main Debug: looking for audio filter module matching "scaletempo": 16 candidates
+scaletempo Debug: format: 44100 rate, 2 nch, 4 bps, fl32
+scaletempo Debug: params: 30 stride, 0.200 overlap, 14 search
+scaletempo Debug: 1.000 scale, 1323.000 stride_in, 1323 stride_out, 1059 standing, 264 overlap, 617 search, 2204 queue, fl32 mode
+main Debug: using audio filter module "scaletempo"
+main Debug: conversion: 'f32l'->'f32l' 44100 Hz->44100 Hz Stereo->Stereo
+main Debug: conversion pipeline complete
+main Debug: conversion: 'f32l'->'f32l' 44100 Hz->44100 Hz Stereo->Stereo
+main Debug: conversion pipeline complete
+main Debug: looking for audio resampler module matching "any": 3 candidates
+main Debug: using audio resampler module "samplerate"
+h264 Debug: found NAL_SPS (sps_id=0)
+main Debug: restarting module due to input format change
+main Debug: removing module "avcodec"
+main Debug: looking for video decoder module matching "any": 19 candidates
+avcodec Debug: using ffmpeg Lavc58.134.100
+avcodec Debug: CPU flags: 0x000853db
+avcodec Debug: allowing 5 thread(s) for decoding
+avcodec Debug: codec (h264) started
+avcodec Debug: using frame thread mode with 5 threads
+main Debug: using video decoder module "avcodec"
+main Debug: inserting 43403 zeroes
+main Debug: looking for text renderer module matching "any": 3 candidates
+freetype Debug: Using DWrite backend
+freetype Debug: DWrite_GetFamily(): family name: Arial
+freetype Debug: DWrite_ParseFamily(): using font at index 0 with weight 400 for bold: 0, italic: 0
+freetype Debug: DWrite_ParseFamily(): using font at index 1 with weight 700 for bold: 1, italic: 0
+freetype Debug: DWrite_ParseFamily(): using font at index 2 with weight 400 for bold: 0, italic: 1
+freetype Debug: DWrite_ParseFamily(): using font at index 3 with weight 700 for bold: 1, italic: 1
+main Debug: using text renderer module "freetype"
+main Debug: removing module "direct3d11"
+direct3d11 Debug: Direct3D11 resources destroyed
+direct3d11 Debug: Direct3D11 device adapter closed
+direct3d11 Error: SetThumbNailClip failed: 0x800706f4
+direct3d11 Debug: Win32 Vout EventThread terminating
+direct3d11 Debug: Win32VoutCloseWindow
+direct3d11 Debug: WinProc WM_DESTROY
+main Debug: deinterlace -1, mode auto, is_needed 0
+main Debug: Opening vout display wrapper
+main Debug: looking for vout display module matching "any": 12 candidates
+direct3d11 Debug: creating Vout EventThread
+main Debug: VoutDisplayEvent 'resize' 640x360
+direct3d11 Debug: inclinometer not found. (hr=0x80070490)
+direct3d11 Debug: created video sub-window
+direct3d11 Debug: Vout EventThread running
+direct3d11 Debug: Created the D3D11 device type 1 level b000.
+direct3d11 Debug: NVIDIA WDDM driver 31.0.15.3598
+direct3d11 Debug: supports colorspace RGB Rec.709 gamma:22 range:STUDIO
+direct3d11 Debug: supports colorspace RGB Rec.2020 gamma:22 range:FULL
+direct3d11 Debug: Output max luminance: 270.0, colorspace RGB Rec.709 gamma:22 range:FULL, bits per pixel 8
+direct3d11 Debug: using colorspace RGB Rec.709 gamma:22 range:FULL
+direct3d11 Debug: Using pixel format VA_NV12 for chroma DX11
+main Debug: VoutDisplayEvent 'resize' 1296x759
+direct3d11 Debug: using GPU render fence
+direct3d11 Debug: Direct3D11 resources created
+main Debug: using vout display module "direct3d11"
+direct3d11 Debug: Direct3D11 device adapter successfully initialized
+main Debug: reusing provided vout
+main Debug: looking for hw decoder module matching "any": 2 candidates
+d3d11va Debug: Reusing Direct3D11 device
+d3d11va Debug: CreateDevice succeed
+d3d11va Debug: - 'MPEG-2 & MPEG-1 variable-length decoder' is supported
+main Debug: VoutDisplayEvent 'resize' 800x435
+d3d11va Debug: - 'MPEG-1 variable-length decoder, no D pictures' is supported
+d3d11va Debug: - 'VC-1 variable-length decoder' is supported
+d3d11va Debug: - 'Unknown decoder 0x32fcfe3f-0xde46-0x4a49-0x861bac71110649d5' is supported
+d3d11va Debug: - 'H.264 stereo high profile, mbs flag set' is supported
+d3d11va Debug: - 'Unknown decoder 0x33fcfe41-0xde46-0x4a49-0x861bac71110649d5' is supported
+d3d11va Debug: Trying to use 'H.264 variable-length decoder, no film grain technology' as input
+d3d11va Debug: - 'MPEG-4 Part 2 variable-length decoder, Simple Profile' is supported
+d3d11va Debug: - 'MPEG-4 Part 2 variable-length decoder, Simple&Advanced Profile, no GMC' is supported
+d3d11va Debug: Using output format NV12 for decoder H.264 variable-length decoder, no film grain technology
+d3d11va Debug: va_pool_SetupDecoder id 27 1280x720 count: 23
+d3d11va Warning: not enough decoding slices in the texture (6/23)
+d3d11va Debug: ID3D11VideoDecoderOutputView succeed with 23 surfaces (1280x720)
+d3d11va Debug: we got 2 decoder configurations
+direct3d11 Debug: Detected size change 773x435
+d3d11va Debug: configuration[0] ConfigBitstreamRaw 1
+d3d11va Debug: configuration[1] ConfigBitstreamRaw 2
+d3d11va Debug: DxCreateDecoderSurfaces succeed
+main Debug: using hw decoder module "d3d11va"
+avcodec Notice: Using D3D11VA (NVIDIA GeForce GTX 750 Ti, vendor 10de(NVIDIA), device 1380, revision a2) for hardware decoding
+adaptive Debug: playlist Start/End 0/0 len 60000000rap pl/demux (0/60000000)
+adaptive Debug: cached.i_time (42850001) cur 0 rap start (pl -1442759443/dmx 2) pos 0.000000
+adaptive Debug: Retrieving https://tv-trt1.medya.trt.com.tr:443/master_720.m3u8
+main Debug: looking for tls client module matching "any": 1 candidates
+gnutls Debug: using GnuTLS version 3.6.16
+main Debug: resolving tv-trt1.medya.trt.com.tr ...
+gnutls Debug: loaded 45 trusted CAs from system
+gnutls Debug: TLS handshake: Resource temporarily unavailable, try again.
+gnutls Debug: TLS handshake: Success.
+gnutls Debug: 2 certificate(s) in the list
+gnutls Debug: certificate key match for tv-trt1.medya.trt.com.tr
+http Debug: outgoing request:
+GET /master_720.m3u8 HTTP/1.1
+Host: tv-trt1.medya.trt.com.tr:443
+Accept: */*
+Accept-Language: tr
+User-Agent: VLC/3.0.18 LibVLC/3.0.18
+Accept-Encoding: deflate, gzip
+Cache-Control: no-cache
+
+
+http Debug: incoming response:
+HTTP/1.1 200 OK
+Akamai-Path-Timestamp: i=1686069347.050;xi=1686069347.053;xo=1686069348.059;s=1686069348.569;
+Last-Modified: Tue, 06 Jun 2023 16:35:47 GMT
+X-Akamai-Live-Origin-QoS: d=6000;t=1686069347.051
+X-Akamai-Server: Akamai-SMT
+Content-Encoding: gzip
+Content-Length: 152
+Akamai-Mon-Iucid-Ing: 2039337
+Expires: Tue, 06 Jun 2023 16:35:53 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 06 Jun 2023 16:35:53 GMT
+Connection: keep-alive
+Vary: Accept-Encoding
+Akamai-Mon-Iucid-Del: 1292190
+Content-Type: application/x-mpegURL
+Access-Control-Max-Age: 86400
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: Server,range,hdntl,hdnts,Akamai-Mon-Iucid-Ing,Akamai-Mon-Iucid-Del,Akamai-Request-BC
+Access-Control-Allow-Headers: origin,range,hdntl,hdnts,CMCD-Request,CMCD-Object,CMCD-Status,CMCD-Session
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Access-Control-Allow-Origin: *
+
+
+inflate Debug: end of stream
+main Debug: removing module "inflate"
+main Debug: looking for stream_filter module matching "inflate": 24 candidates
+adaptive Debug:  Segment #638198 url=https://tv-trt1.medya.trt.com.tr/master_720_primary_638198.ts stime 42 duration 6
+adaptive Debug:  Segment #638199 url=https://tv-trt1.medya.trt.com.tr/master_720_primary_638199.ts stime 48 duration 6
+adaptive Debug:  Segment #638200 url=https://tv-trt1.medya.trt.com.tr/master_720_primary_638200.ts stime 54 duration 6
+main Debug: auto hiding mouse cursor
+drawable Warning: unsupported control query 3
+adaptive Debug: playlist Start/End 6000000/0 len 66000000rap pl/demux (0/66000000)
+adaptive Debug: playlist Start/End 6000000/0 len 66000000rap pl/demux (0/66000000)
+adaptive Debug: cached.i_time (44840001) cur 0 rap start (pl -1440769443/dmx 2) pos 0.000000
+adaptive Debug: Retrieving https://tv-trt1.medya.trt.com.tr:443/master_720_primary_638201.ts
+http Debug: outgoing request:
+GET /master_720_primary_638201.ts HTTP/1.1
+Host: tv-trt1.medya.trt.com.tr:443
+Accept: */*
+Accept-Language: tr
+User-Agent: VLC/3.0.18 LibVLC/3.0.18
+Accept-Encoding: deflate, gzip
+Cache-Control: no-cache
+
+
+http Debug: incoming response:
+HTTP/1.1 200 OK
+Akamai-Path-Timestamp: i=1686069346.549;xi=1686069346.552;xo=1686069348.626;s=1686069348.630;
+Content-Length: 1654024
+Last-Modified: Tue, 06 Jun 2023 16:35:46 GMT
+X-Akamai-Live-Origin-QoS: d=6000;t=1686069346.550
+X-Akamai-Server: Akamai-SMT
+Pragma: no-cache
+Akamai-Mon-Iucid-Ing: 2039337
+Cache-Control: max-age=288
+Expires: Tue, 06 Jun 2023 16:40:43 GMT
+Date: Tue, 06 Jun 2023 16:35:55 GMT
+Connection: keep-alive
+Akamai-Mon-Iucid-Del: 1292190
+Content-Type: video/MP2T
+Access-Control-Max-Age: 86400
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: Server,range,hdntl,hdnts,Akamai-Mon-Iucid-Ing,Akamai-Mon-Iucid-Del,Akamai-Request-BC
+Access-Control-Allow-Headers: origin,range,hdntl,hdnts,CMCD-Request,CMCD-Object,CMCD-Status,CMCD-Session
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Access-Control-Allow-Origin: *
+
+
+ts Warning: discontinuity indicator (pid=481) 
+adaptive Debug: playlist Start/End 6000000/0 len 66000000rap pl/demux (0/66000000)
+adaptive Debug: cached.i_time (46840001) cur 0 rap start (pl -1438769443/dmx 2) pos 0.000000
+adaptive Debug: playlist Start/End 6000000/0 len 66000000rap pl/demux (0/66000000)
+adaptive Debug: playlist Start/End 6000000/0 len 66000000rap pl/demux (0/66000000)
+adaptive Debug: cached.i_time (47840001) cur 0 rap start (pl -1437769443/dmx 2) pos 0.000000
+adaptive Debug: playlist Start/End 6000000/0 len 66000000rap pl/demux (0/66000000)
+adaptive Debug: cached.i_time (48833579) cur 0 rap start (pl -1436775865/dmx 2) pos 0.000000
+adaptive Debug: Retrieving https://tv-trt1.medya.trt.com.tr:443/master_720.m3u8
+http Debug: outgoing request:
+GET /master_720.m3u8 HTTP/1.1
+Host: tv-trt1.medya.trt.com.tr:443
+Accept: */*
+Accept-Language: tr
+User-Agent: VLC/3.0.18 LibVLC/3.0.18
+Accept-Encoding: deflate, gzip
+Cache-Control: no-cache
+
+
+main Debug: using stream_filter module "inflate"
+adaptive Debug: Updated playlist ID master_720.m3u8, after 6s
+adaptive Debug: Representation master_720.m3u8 [avc1.64001f,mp4a.40.2]
+main Debug: removing module "inflate"
+http Debug: incoming response:
+HTTP/1.1 200 OK
+Akamai-Path-Timestamp: i=1686069353.055;xi=1686069353.059;xo=1686069355.407;s=1686069355.409;
+Last-Modified: Tue, 06 Jun 2023 16:35:53 GMT
+X-Akamai-Live-Origin-QoS: d=6000;t=1686069353.056
+X-Akamai-Server: Akamai-SMT
+Content-Encoding: gzip
+Content-Length: 151
+Akamai-Mon-Iucid-Ing: 2039337
+Expires: Tue, 06 Jun 2023 16:35:59 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Tue, 06 Jun 2023 16:35:59 GMT
+Connection: keep-alive
+Vary: Accept-Encoding
+Akamai-Mon-Iucid-Del: 1292190
+Content-Type: application/x-mpegURL
+Access-Control-Max-Age: 86400
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: Server,range,hdntl,hdnts,Akamai-Mon-Iucid-Ing,Akamai-Mon-Iucid-Del,Akamai-Request-BC
+Access-Control-Allow-Headers: origin,range,hdntl,hdnts,CMCD-Request,CMCD-Object,CMCD-Status,CMCD-Session
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Access-Control-Allow-Origin: *
+
+
+adaptive Debug:  Segment #638193 url=https://tv-trt1.medya.trt.com.tr/master_720_primary_638193.ts stime 12 duration 6
+adaptive Debug:  Segment #638195 url=https://tv-trt1.medya.trt.com.tr/master_720_primary_638195.ts stime 24 duration 6
+adaptive Debug:  Segment #638197 url=https://tv-trt1.medya.trt.com.tr/master_720_primary_638197.ts stime 36 duration 6
+adaptive Debug:  Segment #638198 url=https://tv-trt1.medya.trt.com.tr/master_720_primary_638198.ts stime 42 duration 6
+adaptive Debug:  Segment #638199 url=https://tv-trt1.medya.trt.com.tr/master_720_primary_638199.ts stime 48 duration 6
+adaptive Debug:  Segment #638200 url=https://tv-trt1.medya.trt.com.tr/master_720_primary_638200.ts stime 54 duration 6
+adaptive Debug:  Segment #638201 url=https://tv-trt1.medya.trt.com.tr/master_720_primary_638201.ts stime 60 duration 6
+adaptive Debug:  Segment #638202 url=https://tv-trt1.medya.trt.com.tr/master_720_primary_638202.ts stime 66 duration 6
+adaptive Debug: playlist Start/End 12000000/0 len 72000000rap pl/demux (0/72000000)
+adaptive Debug: cached.i_time (49855257) cur 0 rap start (pl -1435754187/dmx 2) pos 0.000000
+drawable Warning: unsupported control query 3
+adaptive Debug: playlist Start/End 12000000/0 len 72000000rap pl/demux (0/72000000)
+adaptive Debug: cached.i_time (50840001) cur 0 rap start (pl -1434769443/dmx 2) pos 0.000000
+adaptive Debug: Retrieving https://tv-trt1.medya.trt.com.tr:443/master_720_primary_638202.ts
+http Debug: outgoing request:
+GET /master_720_primary_638202.ts HTTP/1.1
+Host: tv-trt1.medya.trt.com.tr:443
+Accept: */*
+Accept-Language: tr
+User-Agent: VLC/3.0.18 LibVLC/3.0.18
+Accept-Encoding: deflate, gzip
+Cache-Control: no-cache
+
+
+http Debug: incoming response:
+HTTP/1.1 200 OK
+Akamai-Path-Timestamp: i=1686069352.553;xi=1686069352.556;xo=1686069355.472;s=1686069355.488;
+Content-Length: 1660604
+Last-Modified: Tue, 06 Jun 2023 16:35:52 GMT
+X-Akamai-Live-Origin-QoS: d=6000;t=1686069352.554
+X-Akamai-Server: Akamai-SMT
+Pragma: no-cache
+Akamai-Mon-Iucid-Ing: 2039337
+Cache-Control: max-age=300
+Expires: Tue, 06 Jun 2023 16:41:01 GMT
+Date: Tue, 06 Jun 2023 16:36:01 GMT
+Connection: keep-alive
+Akamai-Mon-Iucid-Del: 1292190
+Content-Type: video/MP2T
+Access-Control-Max-Age: 86400
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: Server,range,hdntl,hdnts,Akamai-Mon-Iucid-Ing,Akamai-Mon-Iucid-Del,Akamai-Request-BC
+Access-Control-Allow-Headers: origin,range,hdntl,hdnts,CMCD-Request,CMCD-Object,CMCD-Status,CMCD-Session
+Access-Control-Allow-Methods: GET,POST,OPTIONS
+Access-Control-Allow-Origin: *
+
+
+ts Warning: discontinuity indicator (pid=481) 
+direct3d11 Debug: WinProc WM_DESTROY
+direct3d11 Debug: Win32 Vout EventThread terminating
+direct3d11 Debug: Win32VoutCloseWindow
+direct3d11 Debug: WinProc WM_DESTROY
