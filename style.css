@@ -91,5 +91,6 @@ p {
 #baslikCard1,
 #baslikCard2,
 #baslikCard3 {
+  font-family: 'Patrick Hand', cursive;
   color: rgb(70, 161, 197);
 }
